@@ -1,0 +1,148 @@
+#body{
+    background-color: black;
+    flex-grow: 50;
+    user-select: none;
+}
+
+#em{
+    color:white; 
+    text-align:center; 
+    background-color:#FF0000;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    text-shadow: 2px 2px 2px grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.form{
+    display: flex;
+    display: block;
+    text-align: left;
+    flex-direction: column;
+    position:relative;
+    left: 20%;
+    
+    
+}
+#top{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0px;
+   padding: 5px;
+}
+#img{
+    border-radius: 50%;
+    margin-top: 5px;
+    transition: 3s;
+    animation: crece 3s;
+    
+}
+@keyframes crece{
+    0%{transform: scale(0);}
+
+    100%{transform: scale(1);}
+}
+#img:active{
+    transform: rotate(360deg);
+}
+#center1{
+    background-color: #3c3893;
+    color: aliceblue;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.lis{
+    color:#ffffff;
+    font-size: 100%;
+   font-weight: large;
+    text-align: center;
+    transform: 1s;
+    list-style-type: none;
+}
+#lis1{
+    font-size: 100%;
+    animation: font 2s;
+    animation-delay: 2s;
+}
+#lis2{
+    font-size: 100%;
+    animation: font 2s;
+    animation-delay: 3s;
+}
+#lis3{
+    font-size: 100%;
+    animation: font 2s;
+    animation-delay: 4s;
+}
+@keyframes font{
+    0%{font-size: 100%;}
+    50%{font-size: 120%;}
+    100%{font-size: 100%; color:red;}
+}
+.lis:hover{
+    transform: scale(1.2);
+}
+#center2{
+    background-color: #ffffff;
+    padding: 5px;
+    color: dimgrey;
+    text-align: center;
+}
+#h2{
+    color: #8b00b8;
+    font-size: 200%;
+}
+#abajo{
+    background-color: #3c3893;
+    padding: 5px;
+    color: azure;
+
+    
+}
+#h3{
+    color:#3c3893;
+   text-align: center;
+   
+}
+
+.choise{
+
+    color: aliceblue;
+    font-size: 100%;
+    background-color:#3c3893;
+    padding:5px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px blue;
+    text-align: center;
+    margin: 3px;
+    animation: pulse 2s 2;
+    animation-delay: 5s;
+    transition: 1s;
+    
+}
+.choise:hover{
+    background-color: blue;
+    font-size: 110%;
+}
+@keyframes pulse{
+    0%{font-size: 100%}
+    50%{font-size: 105%}
+    100%{font-size: 100%}
+}
+
+.boton{
+    position:relative;
+    left: 20%;
+}
+footer{
+    text-align: right;
+}
+#youtube{
+    width: 5%;
+}
